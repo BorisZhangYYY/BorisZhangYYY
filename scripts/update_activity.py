@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Refresh the open Issues and PRs sections in the GitHub profile README.
+"""Refresh open Issues, PRs and merged upstream contributions in the profile README.
 
 Requires only Python's standard library and GITHUB_TOKEN from GitHub Actions.
 """
@@ -18,9 +18,22 @@ USERNAME = "BorisZhangYYY"
 README = Path(__file__).resolve().parents[1] / "README.md"
 API_URL = "https://api.github.com/search/issues"
 PER_PAGE = 100
+MAX_MERGED_PRS = 15
+
+# Keep these hand-written descriptions for notable merged upstream contributions.
+CURATED_MERGED = {
+    "https://github.com/Achuan-2/siyuan-plugin-copilot/pull/148": (
+        "Added SiYuan `forwardProxy` support to improve access across AI providers."
+    ),
+    "https://github.com/siyuan-note/bazaar/pull/2344": (
+        "Published [ZhiLiu (知流)](https://github.com/BorisZhangYYY/noosphere-siyuan) "
+        "to the SiYuan community marketplace."
+    ),
+}
 
 
-def fetch_open_items(kind: str) -> list[dict]:
+
+def fetch_items(kind: str, state: str) -> list[dict]:
     token = os.environ.get("GITHUB_TOKEN")
     if not token:
         raise RuntimeError("GITHUB_TOKEN is required for GitHub API requests")
@@ -30,7 +43,8 @@ def fetch_open_items(kind: str) -> list[dict]:
     while True:
         params = urlencode(
             {
-                "q": f"author:{USERNAME} is:{kind} is:open",
+                "q": f"author:{USERNAME} is:{kind} {state} archived:false"
+                + (f" -user:{USERNAME}" if state == "is:merged" else ""),
                 "sort": "updated",
                 "order": "desc",
                 "per_page": PER_PAGE,
@@ -88,6 +102,26 @@ def render(items: list[dict], kind: str) -> str:
     return "\n".join(lines)
 
 
+def render_merged(items: list[dict]) -> str:
+    if not items:
+        return "_No merged upstream PRs yet._"
+
+    lines = []
+    for item in items[:MAX_MERGED_PRS]:
+        repository = item["repository_url"].split("/repos/", 1)[1]
+        url = item["html_url"]
+        number = int(item["number"])
+        description = CURATED_MERGED.get(url, escaped_title(item["title"]))
+        lines.append(f"- **[{repository} #{number}]({url})** — {description}")
+
+    if len(items) > MAX_MERGED_PRS:
+        lines.append(
+            f"\n[Browse all merged upstream PRs]"
+            f"(https://github.com/pulls?q=is%3Apr+is%3Amerged+author%3A{USERNAME}+-user%3A{USERNAME})"
+        )
+    return "\n".join(lines)
+
+
 def replace_section(text: str, name: str, body: str) -> str:
     start = f"<!-- ACTIVITY:{name}:START -->"
     end = f"<!-- ACTIVITY:{name}:END -->"
@@ -100,15 +134,21 @@ def replace_section(text: str, name: str, body: str) -> str:
 
 def main() -> None:
     original = README.read_text(encoding="utf-8")
-    # Fetch both lists before touching README. If either query fails, nothing changes.
-    issues = fetch_open_items("issue")
-    prs = fetch_open_items("pr")
+    # Fetch all datasets before writing; fail closed on API errors.
+    issues = fetch_items("issue", "is:open")
+    prs = fetch_items("pr", "is:open")
+    merged_upstream_prs = fetch_items("pr", "is:merged")
 
     updated = replace_section(original, "ISSUES", render(issues, "issues"))
     updated = replace_section(updated, "PRS", render(prs, "PRs"))
+    updated = replace_section(updated, "MERGED", render_merged(merged_upstream_prs))
     if updated != original:
         README.write_text(updated, encoding="utf-8")
-    print(f"Open Issues: {len(issues)} | Open PRs: {len(prs)} | README changed: {updated != original}")
+    print(
+        f"Open Issues: {len(issues)} | Open PRs: {len(prs)} | "
+        f"Merged upstream PRs: {len(merged_upstream_prs)} | "
+        f"README changed: {updated != original}"
+    )
 
 
 if __name__ == "__main__":

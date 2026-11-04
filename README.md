@@ -39,10 +39,11 @@ I enjoy fixing real problems in the projects I use. Here are a couple of merged 
 ### 🐛 Open issues
 
 <!-- ACTIVITY:ISSUES:START -->
+- **[NousResearch/hermes-agent #148823](https://github.com/NousResearch/hermes-agent/issues/148823)** — \[Bug\]: Desktop Files tree does not mark parent folders when nested files have Git changes
 - **[openclaw/openclaw #137398](https://github.com/openclaw/openclaw/issues/137398)** — tools.toolSearch: agent loops on tool-search when an MCP server disconnects
 - **[BorisZhangYYY/awesome-AGENT-configure #1](https://github.com/BorisZhangYYY/awesome-AGENT-configure/issues/1)** — README.md 精简
-- **[NousResearch/hermes-agent #146762](https://github.com/NousResearch/hermes-agent/issues/146762)** — [Bug]: Desktop profile unread badge counts hidden group member sessions with no visible chat to open
-- **[NousResearch/hermes-agent #146434](https://github.com/NousResearch/hermes-agent/issues/146434)** — [Feature]: One user-visible name per agent — display names on every surface, canonical IDs internal
+- **[NousResearch/hermes-agent #146762](https://github.com/NousResearch/hermes-agent/issues/146762)** — \[Bug\]: Desktop profile unread badge counts hidden group member sessions with no visible chat to open
+- **[NousResearch/hermes-agent #146434](https://github.com/NousResearch/hermes-agent/issues/146434)** — \[Feature\]: One user-visible name per agent — display names on every surface, canonical IDs internal
 - **[BorisZhangYYY/zhujilu #12](https://github.com/BorisZhangYYY/zhujilu/issues/12)** — 【定时任务】keydate-scan 输出超限导致失败（stopReason=length）
 <!-- ACTIVITY:ISSUES:END -->
 

@@ -1,15 +1,12 @@
 <div align="center">
 
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=27&duration=3000&pause=900&color=2196F3&center=true&vCenter=true&width=640&lines=Hi%2C+there!;I'm+BorisZhangYYY.;I+build+tools+I+use." alt="Animated typing: Hi there, I'm BorisZhangYYY" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=27&duration=3200&pause=1400&color=2196F3&center=true&vCenter=true&width=640&lines=Hi+there%21+I%27m+BorisZhangYYY." alt="Typing: Hi there! I'm BorisZhangYYY." />
 </a>
 
-**I build tools I use and contribute fixes back to the projects behind them.**
-
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=14&duration=3500&pause=1200&color=64748B&center=true&vCenter=true&width=650&lines=AI+Agents+%E2%80%A2+Open+Source+%E2%80%A2+Self-hosted+Tools;Build+%E2%80%A2+Learn+%E2%80%A2+Contribute" alt="Animated focus areas: AI Agents, Open Source, Self-hosted Tools" />
-
-<a href="https://github.com/BorisZhangYYY?tab=repositories"><img src="https://img.shields.io/badge/Explore-Repositories-2563EB?style=flat-square&logo=github&logoColor=white" alt="GitHub repositories" /></a>
-<a href="https://github.com/BorisZhangYYY?tab=followers"><img src="https://img.shields.io/github/followers/BorisZhangYYY?style=flat-square&label=Followers&color=64748B" alt="GitHub followers" /></a>
+<p align="center">
+  <strong><em>I build tools I use and contribute fixes back to the projects behind them.</em></strong>
+</p>
 
 </div>
 

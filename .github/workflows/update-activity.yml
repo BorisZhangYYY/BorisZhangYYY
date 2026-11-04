@@ -2,8 +2,8 @@ name: Update profile activity
 
 on:
   schedule:
-    # Monday 10:00 in China/Singapore (UTC+8)
-    - cron: '0 2 * * 1'
+    # Daily 10:00 in China/Singapore (UTC+8)
+    - cron: '0 2 * * *'
   workflow_dispatch:
 
 permissions:
@@ -26,7 +26,7 @@ jobs:
         with:
           python-version: '3.12'
 
-      - name: Update open issues and pull requests
+      - name: Update open issues, pull requests and merged contributions
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python scripts/update_activity.py

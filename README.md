@@ -49,5 +49,5 @@ Merged pull requests in public, non-archived upstream repositories (automaticall
 ---
 
 <div align="center">
-<sub>Open Issues, PRs and merged upstream contributions refresh automatically every Monday at 10:00 (UTC+8) via <a href="https://github.com/BorisZhangYYY/BorisZhangYYY/actions/workflows/update-activity.yml">GitHub Actions</a>.</sub>
+<sub>Open Issues, PRs and merged upstream contributions refresh automatically every day at 10:00 (UTC+8) via <a href="https://github.com/BorisZhangYYY/BorisZhangYYY/actions/workflows/update-activity.yml">GitHub Actions</a>.</sub>
 </div>

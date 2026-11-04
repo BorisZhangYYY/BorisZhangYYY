@@ -1,10 +1,12 @@
 <div align="center">
 
-# Hey, I'm Boris 👋
+<a href="https://git.io/typing-svg">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=27&duration=3000&pause=900&color=2196F3&center=true&vCenter=true&width=640&lines=Hi%2C+there!;I'm+BorisZhangYYY.;I+build+tools+I+use." alt="Animated typing: Hi there, I'm BorisZhangYYY" />
+</a>
 
 **I build tools I use and contribute fixes back to the projects behind them.**
 
-AI Agents · Open Source · Self-hosted Tools
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=14&duration=3500&pause=1200&color=64748B&center=true&vCenter=true&width=650&lines=AI+Agents+%E2%80%A2+Open+Source+%E2%80%A2+Self-hosted+Tools;Build+%E2%80%A2+Learn+%E2%80%A2+Contribute" alt="Animated focus areas: AI Agents, Open Source, Self-hosted Tools" />
 
 <a href="https://github.com/BorisZhangYYY?tab=repositories"><img src="https://img.shields.io/badge/Explore-Repositories-2563EB?style=flat-square&logo=github&logoColor=white" alt="GitHub repositories" /></a>
 <a href="https://github.com/BorisZhangYYY?tab=followers"><img src="https://img.shields.io/github/followers/BorisZhangYYY?style=flat-square&label=Followers&color=64748B" alt="GitHub followers" /></a>
@@ -24,10 +26,12 @@ AI Agents · Open Source · Self-hosted Tools
 
 ### 🤝 Open source contributions
 
-I enjoy fixing real problems in the projects I use. Here are a couple of merged contributions:
+Merged pull requests in public, non-archived upstream repositories (automatically updated).
 
-- **[siyuan-plugin-copilot #148](https://github.com/Achuan-2/siyuan-plugin-copilot/pull/148)** — Added SiYuan `forwardProxy` support to improve cross-origin access and compatibility across AI providers.
-- **[siyuan-note/bazaar #2344](https://github.com/siyuan-note/bazaar/pull/2344)** — Published **[ZhiLiu (知流)](https://github.com/BorisZhangYYY/noosphere-siyuan)** to the SiYuan community marketplace.
+<!-- ACTIVITY:MERGED:START -->
+- **[siyuan-note/bazaar #2344](https://github.com/siyuan-note/bazaar/pull/2344)** — Published [ZhiLiu (知流)](https://github.com/BorisZhangYYY/noosphere-siyuan) to the SiYuan community marketplace.
+- **[Achuan-2/siyuan-plugin-copilot #148](https://github.com/Achuan-2/siyuan-plugin-copilot/pull/148)** — Added SiYuan `forwardProxy` support to improve access across AI providers.
+<!-- ACTIVITY:MERGED:END -->
 
 ### 🔭 Open pull requests
 
@@ -40,15 +44,13 @@ I enjoy fixing real problems in the projects I use. Here are a couple of merged 
 
 <!-- ACTIVITY:ISSUES:START -->
 - **[NousResearch/hermes-agent #148823](https://github.com/NousResearch/hermes-agent/issues/148823)** — \[Bug\]: Desktop Files tree does not mark parent folders when nested files have Git changes
-- **[openclaw/openclaw #137398](https://github.com/openclaw/openclaw/issues/137398)** — tools.toolSearch: agent loops on tool-search when an MCP server disconnects
-- **[BorisZhangYYY/awesome-AGENT-configure #1](https://github.com/BorisZhangYYY/awesome-AGENT-configure/issues/1)** — README.md 精简
 - **[NousResearch/hermes-agent #146762](https://github.com/NousResearch/hermes-agent/issues/146762)** — \[Bug\]: Desktop profile unread badge counts hidden group member sessions with no visible chat to open
 - **[NousResearch/hermes-agent #146434](https://github.com/NousResearch/hermes-agent/issues/146434)** — \[Feature\]: One user-visible name per agent — display names on every surface, canonical IDs internal
-- **[BorisZhangYYY/zhujilu #12](https://github.com/BorisZhangYYY/zhujilu/issues/12)** — 【定时任务】keydate-scan 输出超限导致失败（stopReason=length）
+- **[openclaw/openclaw #137398](https://github.com/openclaw/openclaw/issues/137398)** — tools.toolSearch: agent loops on tool-search when an MCP server disconnects
 <!-- ACTIVITY:ISSUES:END -->
 
 ---
 
 <div align="center">
-<sub>Open Issues and PRs refresh automatically every Monday at 10:00 (UTC+8) via <a href="https://github.com/BorisZhangYYY/BorisZhangYYY/actions/workflows/update-activity.yml">GitHub Actions</a>.</sub>
+<sub>Open Issues, PRs and merged upstream contributions refresh automatically every Monday at 10:00 (UTC+8) via <a href="https://github.com/BorisZhangYYY/BorisZhangYYY/actions/workflows/update-activity.yml">GitHub Actions</a>.</sub>
 </div>

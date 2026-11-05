@@ -33,6 +33,7 @@ Merged pull requests in public, non-archived upstream repositories (automaticall
 ### 🔭 Open pull requests
 
 <!-- ACTIVITY:PRS:START -->
+- **[NousResearch/hermes-agent #149332](https://github.com/NousResearch/hermes-agent/pull/149332)** — fix(desktop): emit explicit custom: identity for custom endpoint picks
 - **[NousResearch/hermes-agent #148845](https://github.com/NousResearch/hermes-agent/pull/148845)** — fix(desktop): propagate Git file changes to ancestor folders
 - **[NousResearch/hermes-agent #146690](https://github.com/NousResearch/hermes-agent/pull/146690)** — fix: use configured agent names across desktop and web
 - **[WACrown/widget-drawio-watermelonhub #2](https://github.com/WACrown/widget-drawio-watermelonhub/pull/2)** — v0.1.3: 修复外部IP访问时draw.io挂件内容空白问题
@@ -41,8 +42,8 @@ Merged pull requests in public, non-archived upstream repositories (automaticall
 ### 🐛 Open issues
 
 <!-- ACTIVITY:ISSUES:START -->
+- **[NousResearch/hermes-agent #148868](https://github.com/NousResearch/hermes-agent/issues/148868)** — \[Bug\]: Desktop custom endpoint picks lose explicit identity when their key collides with a built-in provider
 - **[NousResearch/hermes-agent #148823](https://github.com/NousResearch/hermes-agent/issues/148823)** — \[Bug\]: Desktop Files tree does not mark parent folders when nested files have Git changes
-- **[NousResearch/hermes-agent #148868](https://github.com/NousResearch/hermes-agent/issues/148868)** — \[Bug\]: A pick of a shadowed custom endpoint freezes its bare built-in spelling when the profile runs another provider
 - **[openclaw/openclaw #137398](https://github.com/openclaw/openclaw/issues/137398)** — tools.toolSearch: agent loops on tool-search when an MCP server disconnects
 - **[NousResearch/hermes-agent #146762](https://github.com/NousResearch/hermes-agent/issues/146762)** — \[Bug\]: Desktop profile unread badge counts hidden group member sessions with no visible chat to open
 - **[NousResearch/hermes-agent #146434](https://github.com/NousResearch/hermes-agent/issues/146434)** — \[Feature\]: One user-visible name per agent — display names on every surface, canonical IDs internal

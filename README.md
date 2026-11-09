@@ -33,9 +33,9 @@ Merged pull requests in public, non-archived upstream repositories (automaticall
 ### 🔭 Open pull requests
 
 <!-- ACTIVITY:PRS:START -->
-- **[NousResearch/hermes-agent #149332](https://github.com/NousResearch/hermes-agent/pull/149332)** — fix(desktop): emit explicit custom: identity for custom endpoint picks
 - **[NousResearch/hermes-agent #148845](https://github.com/NousResearch/hermes-agent/pull/148845)** — fix(desktop): propagate Git file changes to ancestor folders
 - **[NousResearch/hermes-agent #146690](https://github.com/NousResearch/hermes-agent/pull/146690)** — fix: use configured agent names across desktop and web
+- **[NousResearch/hermes-agent #149332](https://github.com/NousResearch/hermes-agent/pull/149332)** — fix(desktop): emit explicit custom: identity for custom endpoint picks
 - **[WACrown/widget-drawio-watermelonhub #2](https://github.com/WACrown/widget-drawio-watermelonhub/pull/2)** — v0.1.3: 修复外部IP访问时draw.io挂件内容空白问题
 <!-- ACTIVITY:PRS:END -->
 

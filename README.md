@@ -42,6 +42,7 @@ Merged pull requests in public, non-archived upstream repositories (automaticall
 ### 🐛 Open issues
 
 <!-- ACTIVITY:ISSUES:START -->
+- **[NousResearch/hermes-agent #154774](https://github.com/NousResearch/hermes-agent/issues/154774)** — \[Bug\]\[memory/settings\] Memory provider status conflates PM dependency-environment state with provider availability
 - **[openclaw/openclaw #137398](https://github.com/openclaw/openclaw/issues/137398)** — tools.toolSearch: agent loops on tool-search when an MCP server disconnects
 - **[NousResearch/hermes-agent #146434](https://github.com/NousResearch/hermes-agent/issues/146434)** — \[Feature\]: One user-visible name per agent — display names on every surface, canonical IDs internal
 - **[NousResearch/hermes-agent #148868](https://github.com/NousResearch/hermes-agent/issues/148868)** — \[Bug\]: Desktop custom endpoint picks lose explicit identity when their key collides with a built-in provider

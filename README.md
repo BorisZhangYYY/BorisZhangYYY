@@ -42,6 +42,7 @@ Merged pull requests in public, non-archived upstream repositories (automaticall
 ### 🐛 Open issues
 
 <!-- ACTIVITY:ISSUES:START -->
+- **[MrLesk/Backlog.md #1228](https://github.com/MrLesk/Backlog.md/issues/1228)** — \[Bug\]: Expanded sidebar clips Kanban board filters at narrow viewport widths
 - **[openclaw/openclaw #137398](https://github.com/openclaw/openclaw/issues/137398)** — tools.toolSearch: agent loops on tool-search when an MCP server disconnects
 - **[NousResearch/hermes-agent #154774](https://github.com/NousResearch/hermes-agent/issues/154774)** — \[Bug\]\[memory/settings\] Memory provider status conflates PM dependency-environment state with provider availability
 - **[NousResearch/hermes-agent #146434](https://github.com/NousResearch/hermes-agent/issues/146434)** — \[Feature\]: One user-visible name per agent — display names on every surface, canonical IDs internal
